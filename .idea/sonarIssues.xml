@@ -13,7 +13,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../android-architecture/app/src/main/res/layout/tasks_frag.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../hms_android/hmsapp/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hms_android/hmsapp/src/main/java/com/oyo/hmsapp/AppApplication.java">
           <value>
             <set />
           </value>
@@ -54,6 +64,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/testbook/testBookHome/di/component/DaggerHomeComponent.java">
           <value>
             <set />
           </value>

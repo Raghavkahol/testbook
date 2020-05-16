@@ -11,6 +11,10 @@ class ContextModule(context: Context) {
 
     private lateinit var context: Context
 
+    init {
+        this.context = context
+    }
+
     @Provides
     @ApplicationContext
     @ApplicationScoped
