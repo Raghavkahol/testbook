@@ -30,8 +30,8 @@ class HomeAdapter(val context: Context,var mList: List<Info>) : RecyclerView.Ada
 
         fun bindView(info: Info) {
             itemView.course_title.text = info.titles
-            Glide.with(itemView.faculities_image.context).load("http://"+info.classInfo?.facultiesImage)
-              .into(itemView.faculities_image)
+            val url : String? = context.getString(R.string.label_faculty_url,info.classInfo?.facultiesImage)
+            Glide.with(itemView.faculities_image.context).load(url).into(itemView.faculities_image)
             info.classInfo?.classFeature?.features?.let {
                 itemView.course_info_one.text = it.get(0)?.name
                 itemView.course_info_two.text = it.get(1)?.name

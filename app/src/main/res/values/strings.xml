@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">testBook</string>
     <string name="label_test_book">Testbook</string>
+    <string name="label_faculty_url">http://%s</string>
 </resources>
