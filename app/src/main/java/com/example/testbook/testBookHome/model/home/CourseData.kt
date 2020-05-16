@@ -7,7 +7,7 @@ data class CourseData(
 )
 
 data class Data(
-    val classes: List<Info>? = null
+    val classes: List<Info>
 )
 
 data class Info(

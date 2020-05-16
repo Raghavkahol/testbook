@@ -53,7 +53,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../hms_android/hmsapp/src/main/java/com/oyo/hmsapp/modules/laundry/dailylaundry/DailyLaundryViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../hms_android/hmsapp/src/main/java/com/oyo/hmsapp/network/di/module/ApiServiceModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../hms_android/hmsapp/src/main/java/com/oyo/hmsapp/ui/adapter/BaseRecyclerAdapter.java">
           <value>
             <set />
           </value>
@@ -79,6 +89,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/testbook/testBookHome/AppApplication.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/testbook/testBookHome/BindingAdapter.kt">
           <value>
             <set />
           </value>
@@ -159,6 +174,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/testbook/testBookHome/module/home/HomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/testbook/testBookHome/module/home/HomeAdapter.kt">
           <value>
             <set />
           </value>
