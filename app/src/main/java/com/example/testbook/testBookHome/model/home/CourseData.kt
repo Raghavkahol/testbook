@@ -130,7 +130,7 @@ data class ThumbnailInfo(
 )
 
 data class ClassFeature(
-    val features: List<Feature>? = null,
+    val features: List<Feature?>? = null,
     val text: String? = null
 )
 

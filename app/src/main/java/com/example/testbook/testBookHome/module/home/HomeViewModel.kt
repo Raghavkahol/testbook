@@ -12,9 +12,6 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel(private val apiService: ApiService) : ViewModel() {
 
-    private var _courseData  = MutableLiveData<CourseData>()
-    var courseData  : LiveData<CourseData> = _courseData
-
     private val _dataLoading = MutableLiveData<Boolean>()
     val dataLoading: LiveData<Boolean> = _dataLoading
 
@@ -27,8 +24,8 @@ class HomeViewModel(private val apiService: ApiService) : ViewModel() {
     private fun getCardsData() {
         _dataLoading.value = true
         viewModelScope.launch {
-            courseData=apiService.getData(true,true)
-            courseData.value?.data?.classes?.let { course.addAll(it) }
+            val courseData=apiService.getData(true,true)
+            courseData.data?.classes?.let { course.addAll(it) }
             _dataLoading.value = false
         }
     }

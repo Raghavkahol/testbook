@@ -32,7 +32,7 @@ class HomeActivity : AppCompatActivity() {
             viewModel = homeViewModel
             lifecycleOwner = this@HomeActivity
             recyclerView.apply{
-                layoutManager = LinearLayoutManager(context)
+                layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
                 adapter = HomeAdapter(context, ArrayList<Info>())
                 itemAnimator = DefaultItemAnimator()
             }
