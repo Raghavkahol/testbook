@@ -13,6 +13,7 @@ import com.example.testbook.testBookHome.di.component.DaggerHomeComponent
 import com.example.testbook.testBookHome.di.module.HomeModule
 import com.example.testbook.testBookHome.model.home.Info
 import javax.inject.Inject
+import androidx.recyclerview.widget.LinearSnapHelper
 
 class HomeActivity : AppCompatActivity() {
 
@@ -36,6 +37,8 @@ class HomeActivity : AppCompatActivity() {
                 adapter = HomeAdapter(context, ArrayList<Info>())
                 itemAnimator = DefaultItemAnimator()
             }
+            val snapHelper = LinearSnapHelper()
+            snapHelper.attachToRecyclerView(recyclerView)
         }
     }
 

@@ -20,8 +20,6 @@ class NetworkModule {
         val httpClientBuilder = OkHttpClient.Builder();
 
         httpClientBuilder.connectTimeout(30, TimeUnit.SECONDS)
-        httpClientBuilder.writeTimeout(1, TimeUnit.MINUTES)
-        httpClientBuilder.readTimeout(30, TimeUnit.SECONDS)
 
         if (BuildConfig.DEBUG) {
             if (!httpClientBuilder.interceptors().contains(logging)) {
