@@ -34,7 +34,7 @@ class HomeAdapter(val context: Context,var mList: List<Info>) : RecyclerView.Ada
             itemView.background = getBackgroundDrawable(info.classProperties?.color)
             itemView.course_title.text = info.titles
             val url : String? = context.getString(R.string.label_faculty_url,info.classInfo?.facultiesImage)
-            Glide.with(itemView.faculities_image.context).load(url).centerInside().into(itemView.faculities_image)
+            Glide.with(itemView.faculities_image.context).load(url).into(itemView.faculities_image)
             info.classInfo?.classFeature?.features?.let {
                 itemView.course_info_one.text = it.get(AppConstants.NUM_ZERO)?.name
                 itemView.course_info_two.text = it.get(AppConstants.NUM_ONE)?.name
